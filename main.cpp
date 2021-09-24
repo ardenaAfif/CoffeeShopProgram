@@ -15,9 +15,9 @@ int judul() {
 	int pilihan;
 		
 		cout<<" ====================================================";cout<<endl;		
-	    cout<<" +\t\tProgram Coffee Shop\t\t    +";cout<<endl;	    
-	    cout<<" +\t\t    Ardena Coffee\t\t    +";cout<<endl;	    
-	    cout<<" +\t\t     Purwokerto\t\t\t    +"<<endl;
+	    	cout<<" +\t\tProgram Coffee Shop\t\t    +";cout<<endl;	    
+	    	cout<<" +\t\t    Ardena Coffee\t\t    +";cout<<endl;	    
+	    	cout<<" +\t\t     Purwokerto\t\t\t    +"<<endl;
 		cout<<" ====================================================";cout<<endl; cout<<endl;
 }
 
@@ -1035,7 +1035,6 @@ main (){
 			keluar();
 		
 		
-		return 0;
-	
+		return 0;	
 
 }
