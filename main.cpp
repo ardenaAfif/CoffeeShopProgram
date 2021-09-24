@@ -33,7 +33,7 @@ void pemesanan() {
 	char menu[20];
 
 	cout<<" Masukkan Nama Pemesan : "; cin>>nama; 
-	cout<<endl;
+	cout<<endl<<endl;
 	
 	cout<<" Pilihan Menu yang Tersedia ---\n";
 	cout<<" ===================================================\n";
@@ -289,7 +289,7 @@ void pemesanan() {
 	
 		case 3 :
 			cout<<" ===================================================\n";
-			cout<<" |\t\t Daftar Menu Kopi\t\t   |\n";
+			cout<<" |\t\t Daftar Menu Tersedia\t\t   |\n";
 			cout<<" ===================================================\n";
 			
 			cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
@@ -351,6 +351,7 @@ void pemesanan() {
 			cout<<endl;
 			
 			cout<<" Uang yang anda bayar		: Rp "<<bayar<<endl;
+			cout<<" __________________________________________\n";
 			
 			if (bayar < total){
 				while (saldo = bayar < total){
@@ -432,7 +433,7 @@ void sisaItem() {
 			system("cls");
 			if(sing == 1){ //pilihan ke-1 (Arenga Pinnata)
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -441,22 +442,22 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah Arenga Pinnata sebanyak 30 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 30 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl; 	   
 			} 
 			
 			else if (sing == 2){ //pilihan ke-2 (Habiscus S)
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -465,22 +466,22 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah Habiscus S sebanyak 30 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 30 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl; 
 			} 
 			
 			else if (sing == 3){ //pilihan ke-3 (Citrus X Limon)
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -489,22 +490,22 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah Citrus X Limon sebanyak 30 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 30 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl; 
 			}
 			
 			else if (sing == 4){ //pilihan ke-4 (Calamellus)
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -513,22 +514,22 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah Calamellus sebanyak 30 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 30 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl; 
 			}
 			
 			else if (sing == 5){ //pilihan ke-5 (Cucumis Melon)
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -537,22 +538,22 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah Cucumis Melon sebanyak 30 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 30 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl; 
 			}
 			
 			else if (sing == 6){ //pilihan ke-6 (Citrus H2O)
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -561,22 +562,22 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah Citrus H2O sebanyak 30 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 30 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl; 
 			}
 			
 			else if (sing == 7){ //pilihan ke-7 (V. Planifolia)
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -585,15 +586,15 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah V. Planifolia sebanyak 30 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 30 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl; 
 			} 
@@ -637,7 +638,7 @@ void sisaItem() {
 			
 			if(milk == 1) { //Pilihan ke-1 (Nira)
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -648,20 +649,20 @@ void sisaItem() {
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 50 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl; 
 			}
 			
 			else if(milk == 2) { //Pilihan ke-2 (Taro)
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -670,22 +671,22 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah Taro sebanyak 50 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 50 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl; 
 			}
 			
 			else if(milk == 3) { //Pilihan ke-3 (Vanilla)
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -694,22 +695,22 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah Vanilla sebanyak 50 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 50 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl; 
 			}
 			
 			else if(milk == 4) { //Pilihan ke-4 (Matca)
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -718,22 +719,22 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah Matca sebanyak 50 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 50 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl; 
 			}
 			
 			else if(milk == 5) { //Pilihan ke-5 (Redvelvet)
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -742,22 +743,22 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah Redvelvet sebanyak 50 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 50 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl; 
 			}
 			
 			else if(milk == 6) { //Pilihan ke-6 (Dark Chocolate)
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -766,22 +767,22 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah Dark Chocolate sebanyak 50 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 50 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl; 
 			}
 			
 			else if(milk == 7) { //Pilihan ke-7 (Bubble Gum)
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -790,22 +791,22 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah Bubble Gum sebanyak 50 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 50 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl; 
 			}
 			
 			else if(milk == 8) { //Pilihan ke-8 (Slated Caramel)
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -814,15 +815,15 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah Salted Caramel sebanyak 50 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 50 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl; 
 			}
@@ -841,7 +842,7 @@ void sisaItem() {
 		case 3 : // <Espresso Based>
 			
 			cout<<" ===================================================\n";
-			cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+			cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 			cout<<" ===================================================\n";
 			
 			cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
@@ -868,7 +869,7 @@ void sisaItem() {
 			if (espresso == 1) { //Pilihan ke-1 (Americano)
 				
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -877,15 +878,15 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah Americano sebanyak 45 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 45 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl; 
 			}
@@ -893,7 +894,7 @@ void sisaItem() {
 			else if (espresso == 2){ //Pilihan ke-2 (Long Black)
 			
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -902,15 +903,15 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah Long Black sebanyak 45 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 45 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl;
 			}
@@ -918,7 +919,7 @@ void sisaItem() {
 			else if (espresso == 3){ //Pilihan ke-3 (Supresso)
 			
 				cout<<" ===================================================\n";
-				cout<<" |\t\t  Sisa Menu Kopi\t\t   |\n";
+				cout<<" |\t\t  Sisa Menu Tersedia\t\t   |\n";
 				cout<<" ===================================================\n";
 				
 				int kopiTerisi,kopiKSONG;
@@ -927,15 +928,15 @@ void sisaItem() {
 				cout<<"     -> Keterangan <-"<<endl;
 				cout<<" Jumlah Supresso sebanyak 45 Gelas"<<endl;
 				cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-				cout<<" Masukkan Jumlah Porsi Kopi Yang Ingin Dipesan"<<endl;
+				cout<<" Masukkan Jumlah Porsi Yang Ingin Dipesan"<<endl;
 		
-				cout<<" Jumlah Pemesanan Kopi  : ";
+				cout<<" Jumlah Pesanan  : ";
 				cin>>kopiTerisi;
 	
 				kopiKSONG = 45 - kopiTerisi;
 				
 				cout<<" ===================================================="<<endl;
-				cout<<" Sisa Kopi   : "<<kopiKSONG;cout<<endl;
+				cout<<" Sisa yang tersedia   : "<<kopiKSONG;cout<<endl;
 				cout<<" ===================================================="<<endl;
 				cout<<endl;
 			}
@@ -1020,17 +1021,17 @@ main (){
 		cout<<endl<<endl;
 		cout<<" ~> Apakah Anda Ingin Keluar ? <~\n\n";
 		cout<<" ============================\n";
-		cout<<" Kembali ke Menu Utama\t[N] \n";
+		cout<<" Kembali ke Menu Utama\t[T] \n";
 		cout<<" Keluar Program\t\t[Y] \n";
 		cout<<" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
 	
-		cout<<" Silahkan Pilih [Y/N] : ";
+		cout<<" Silahkan Pilih [Y/T] : ";
 		cin >>status;
 			
 		cout<<endl;
 		system("cls");
 			
-		}while (status == 'N'|| status == 'n');
+		}while (status == 'T'|| status == 't');
 			keluar();
 		
 		
